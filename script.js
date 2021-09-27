@@ -1,6 +1,7 @@
 //  Establish variables for the NODE modules
 const inquirer = require('inquirer');
 const fs = require('fs');
+// const generateMarkdown = require('./utils/generateREADME');
 // const;
 
 // Incorporate Inquirer with syntax to ask questions to generate README using array.
@@ -129,24 +130,30 @@ inquirer.prompt(
             ### Contact Information
             * Github: ${github}
             * Email:  ${email}
-            `
-    })
-
-// TODO: Function to create README using "fs"
+            `;
+        // TODO: Function to create README using "fs"
+        createNewFile(title, template);
+    });
 
 // TODO: Function for createFile
 function createNewFile(fileName, data) {
-    fs.writeFile(`./s(fileName.toLowerCase().split(' ').join('')}.md`, data, (err) => {
+    fs.writeFileSync(`./s(fileName).toLowerCase().slit(' ').join('').md`, data, (err) => {
         if (err) {
             console.log(err)
         }
-        console.log('README has been Created');
+        console.log('README has been created');
     })
 }
+
+
+
+
+
 
 
 // *BONUS* TODO: Create path so README.md is generated to the correct location.
 
 // TODO: Create function to initialize 
+
 
 // TODO: Call Function for app initialization

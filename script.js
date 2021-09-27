@@ -135,6 +135,17 @@ inquirer.prompt(
 // TODO: Function to create README using "fs"
 
 // TODO: Function for createFile
+function createNewFile(fileName, data) {
+    fs.writeFile(`./s(fileName.toLowerCase().split(' ').join('')}.md`, data, (err) => {
+        if (err) {
+            console.log(err)
+        }
+        console.log('README has been Created');
+    })
+}
+
+
+// *BONUS* TODO: Create path so README.md is generated to the correct location.
 
 // TODO: Create function to initialize 
 

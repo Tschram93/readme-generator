@@ -1,8 +1,7 @@
 //  Establish variables for the NODE modules
 const inquirer = require('inquirer');
 const fs = require('fs');
-// const generateMarkdown = require('./utils/generateREADME');
-// const;
+
 
 // Incorporate Inquirer with syntax to ask questions to generate README using array.
 
@@ -137,7 +136,7 @@ inquirer.prompt(
 
 // TODO: Function for createFile
 function createNewFile(fileName, data) {
-    fs.writeFileSync(`./s(fileName).toLowerCase().slit(' ').join('').md`, data, (err) => {
+    fs.writeFileSync(`./${fileName.toLowerCase().split(' ').join('')}.md`, data, (err) => {
         if (err) {
             console.log(err)
         }

@@ -107,29 +107,25 @@ inquirer.prompt(
         // Template 
         const template =
             `# ${title}
+
+![Image alt Text](relative-path.png)
             
-            ## Link:
-            ${link}
+## Link:
+${link}
+## Description:${description}
+## Instructions:${instructions}
+## DependenciesThe dependency for my app that was used is${dependencies}.
 
-            ## Description
-            ${description}
+## Testing
+${tests}
 
-            ## Instructions
-            ${instructions}
+### License
+${license} was used for licensing.
 
-            ## Dependencies
-            ${dependencies}
-
-            ## Testing
-            ${tests}
-
-            ### License
-            ${license}
-
-            ### Contact Information
-            * Github: ${github}
-            * Email:  ${email}
-            `;
+### Contact Information
+* [Github](https://github.com/${github})
+* Email:  ${email}
+`;
         // TODO: Function to create README using "fs"
         createNewFile(title, template);
     });

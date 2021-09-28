@@ -10,7 +10,7 @@ This application is programmed to ask the user questions about a project that th
 ## Instructions
 The user will open Visual Studio Code. There the user will use the integrated terminal typing "node script" from there they will use their own information to provide answers typing into the integrated terminal and pressing "Enter" on their keyboard after finished answering each question. After the last question a README.md will be generated with the name of the title of the project. From there the user just needs to move the file into the folder of their own application.
  ## Dependencies 
- The dependency for my app that was used isnpm i inquirer.
+ The dependency for my app that was used is npm i inquirer.
 
 ## Testing
 NONE

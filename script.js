@@ -114,7 +114,8 @@ inquirer.prompt(
 ${link}
 ## Description:${description}
 ## Instructions:${instructions}
-## DependenciesThe dependency for my app that was used is${dependencies}.
+## Dependencies
+The dependency for my app that was used is ${dependencies}.
 
 ## Testing
 ${tests}

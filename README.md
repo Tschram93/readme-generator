@@ -16,6 +16,7 @@ The user will open Visual Studio Code. There the user will use the integrated te
 NONE
 
  ### License
+ There was no licensing on this application.
  
 ### Contact Information
 * [Github](https://github.com/Tschram93)

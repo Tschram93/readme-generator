@@ -115,7 +115,7 @@ ${link}
 ## Description:${description}
 ## Instructions:${instructions}
 ## Dependencies
-The dependency for my app that was used is ${dependencies}.
+The dependency for my app that was used is "${dependencies}"
 
 ## Testing
 ${tests}
